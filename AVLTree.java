@@ -440,7 +440,7 @@ class LUC_AVLTree {
         }
         // Return the new node
         return node;
-    }
+    } // Method deleteElement()
 
     /**
      * Method getBalance

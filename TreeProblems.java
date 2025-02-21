@@ -54,7 +54,7 @@ public class TreeProblems {
 
   public static void removeEven(Map<Integer, String> treeMap) {
     // A MUCH MUCH MUCH faster way to do it(only if I knew the syntx sooner):
-    // The removeIf() method iterates through the collection (On it own) and removes
+    // The removeIf() method iterates through the collection (On its own) and removes
     // all elements where the key value Integer is even
     // Code:
     // treeMap.entrySet().removeIf(entry -> entry.getKey()%2 == 0);
@@ -67,7 +67,7 @@ public class TreeProblems {
       // Get the <key, value> pair from the map
       Map.Entry<Integer, String> entery = i.next();
       if (entery.getKey() % 2 == 0) { // Check if the key is even
-        i.remove(); // Remove it
+        i.remove(); // Remove the pair
       }
     }
   } // Method removeEven()
@@ -112,6 +112,6 @@ public class TreeProblems {
     }
     return result;
  */
-  }// Method treesEqual
+  }// Method treesEqual()
 
 } // end treeProblems class
